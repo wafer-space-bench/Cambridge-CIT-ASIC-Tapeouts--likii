@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/Cambridge-CIT-ASIC-Tapeouts/likii
+  original_url: https://github.com/Cambridgeinstituteoftechnology-likitha/likii
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_likitha_trng
+  project: Secure TRNG Entropy Generator
+  size: 1x1
+  kind: digital (Verilog)
+  commit: 6b050a20e1478d9e715a5ea86429a893d0b6fc03
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_likitha_trng
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_likitha_trng
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:20:27Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_likitha_trng
+- upstream/main
